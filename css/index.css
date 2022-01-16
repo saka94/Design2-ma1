@@ -2,96 +2,122 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 h1,
 h2,
 h3 {
-    font-style: italic;
-    color: #595959;
-    text-align: center;
+  font-style: italic;
+  color: #595959;
+  text-align: center;
 }
 
 body {
-    margin: 0px;
-    background-image: url(../Pictures/texture/45degreee_fabric.png);
-    background-repeat: repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  background-image: url(../Pictures/texture/45degreee_fabric.png);
+  background-repeat: repeat;
 }
 
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    background-image:url(../Pictures/photos_2021_7_27_fst_abstract-gray-paint.jpg );
-    box-shadow: 1px 1px 1px black;
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../Pictures/photos_2021_7_27_fst_abstract-gray-paint.jpg);
+  box-shadow: 1px 1px 1px black;
 }
 
 .logo {
-    max-width: 7rem;
+  max-width: 7rem;
+}
+
+.logo-container {
+  display: flex;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin-left: 0rem;
-    margin-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: 0rem;
+  margin-right: 1rem;
 }
 
 li {
-    font-size: 24px;
-    margin: 0px 10px;
+  font-size: 24px;
+  margin: 0px 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #595959;
+  text-decoration: none;
+  color: #595959;
 }
 
 .content-container {
-    background-image: url(../Pictures/texture/spiration-light.png);
-    margin: 1rem 4rem ;
+  background-image: url(../Pictures/texture/spiration-light.png);
+  margin: 1rem 4rem;
 }
 
 .container-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .container-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .content {
-    padding: 5rem;
-    background-color: #D9D9D9;
-    margin: 2rem 2rem;
-    box-shadow: 5px 5px 5px #8C8C8C;
+  padding: 3.5rem;
+  background-color: white;
+  margin: 2rem 2rem;
+  box-shadow: 5px 5px 5px #8c8c8c;
+  max-width: 600px;
 }
 
 footer {
-    background-image: url(../Pictures/photos_2021_7_27_fst_abstract-gray-paint.jpg);
-    margin-top: 4rem;
-    box-shadow: 0px -1px black;
+  margin-top: auto;
+  background-image: url(../Pictures/photos_2021_7_27_fst_abstract-gray-paint.jpg);
+  margin-top: 4rem;
+  box-shadow: 0px -1px black;
 }
 
 .footer-p {
-    margin: 0;
-    padding: 1rem;
-    text-align: center;
-    color: #595959;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  color: #595959;
+}
+
+img {
+  width: 100%;
+}
+
+.banner {
+  margin: 4rem 4rem;
+}
+
+.banner-picture {
+  filter: saturate(6);
+}
+
+.icon-size {
+  max-width: 5.5rem;
 }
