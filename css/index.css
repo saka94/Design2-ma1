@@ -9,20 +9,34 @@
   src: url(../Fonts/Poppins-Regular.ttf);
 }
 
+@font-face {
+  font-family: montserrat;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf) format(truetype);
+  font-weight: 300 500;
+}
+
 html {
   font-family: "Playfair Display", serif;
 }
 
-h1,
+h1 {
+  font-family: monserrat;
+  color: #595959;
+  text-align: center;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
 h2,
 h3 {
-  font-style: italic;
-  color: #595959;
+  font-family: monserrat;
+  color: black;
   text-align: center;
 }
 
 body {
   font-family: poppins-regular;
+  color: #595959;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -115,14 +129,43 @@ img {
   width: 100%;
 }
 
+.img-spacing {
+  margin-bottom: 4rem;
+}
+
 .banner {
+  display: flex;
   margin: 4rem 4rem;
+  justify-content: center;
 }
 
 .banner-picture {
+  max-width: 70%;
   filter: saturate(6);
 }
 
 .icon-size {
   max-width: 5.5rem;
+}
+
+.icon-size-arrow {
+  max-width: 3.5rem;
+}
+
+.cta-product {
+  background-color: #a5bd45;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-p {
+  color: black;
+  font-size: 18px;
 }
