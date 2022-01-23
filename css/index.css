@@ -4,6 +4,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: poppins-regular;
+  src: url(../Fonts/Poppins-Regular.ttf);
+}
 
 html {
   font-family: "Playfair Display", serif;
@@ -18,6 +22,7 @@ h3 {
 }
 
 body {
+  font-family: poppins-regular;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
